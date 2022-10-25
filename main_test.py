@@ -6,7 +6,7 @@ def test_primeNumbers1():
 
     begin = 0
     end = 20
-    print('Test begins: begis = ', begin, ' end: ', end)
+    print('Test begins: begin = ', begin, ' end: ', end)
     rlst = main.primeNumbers(begin, end)
 
     print('Your list: ', rlst)
@@ -25,7 +25,7 @@ def test_primeNumbers1():
 def test_primeNumbers2():
     begin = 10
     end = 50
-    print('Test begins: begis = ', begin, ' end: ', end)
+    print('Test begins: begin = ', begin, ' end: ', end)
     rlst = main.primeNumbers(begin, end)
 
     print('Your list: ', rlst)
