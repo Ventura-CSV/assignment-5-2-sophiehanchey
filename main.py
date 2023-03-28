@@ -14,12 +14,17 @@ def primeNumbers(begin, end):
     return plist
 
 
-begin = 0
-end = 20
-rlst = primeNumbers(begin, end)
-print(rlst)
+def main():
+    begin = 0
+    end = 20
+    rlst = primeNumbers(begin, end)
+    print(rlst)
 
-begin = 10
-end = 50
-rlst = primeNumbers(begin, end)
-print(rlst)
+    begin = 10
+    end = 50
+    rlst = primeNumbers(begin, end)
+    print(rlst)
+
+
+if __name__ == '__main__':
+    main()
