@@ -1,15 +1,17 @@
 def isPrime(num):
-    ##################################################
-    # make your code
-    ##################################################
-    return 0
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+        
+    return True
+        
 
 
 def primeNumbers(begin, end):
-    ##################################################
-    # make your code
-    ##################################################
-    # isPrime(value)
+    plist = []
+    for i in range(begin, end + 1):
+        if isPrime(i):
+            plist.append(i)
 
     return plist
 
